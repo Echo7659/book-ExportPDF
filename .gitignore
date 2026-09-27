@@ -1,0 +1,17 @@
+# downloaded content / outputs
+output/
+
+# secrets (session tokens / cookies) — never commit
+session.json
+**/session.json
+*_session.json
+*cookies*.json
+
+# editor / OS / tooling
+.idea/
+.playwright-cli/
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
